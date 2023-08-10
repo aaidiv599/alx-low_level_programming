@@ -23,3 +23,4 @@ printf("Size of a fload: %lu byte(s)\n", (unsigned long)
 sizeof(f));
 return: (0);
 }
+
