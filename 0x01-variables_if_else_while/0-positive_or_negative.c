@@ -15,11 +15,12 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
-if (a > 0)
-	print("%d is positvie", n);
-else if (a == 0)
-	print("%d is zero", n);
+if (n > 0)
+	printf("%d is positvie", n);
+else if (n == 0)
+	printf("%d is zero", n);
 else
-	print("%d is negative", n);
+	printf("%d is negative", n);
+printf("\n");
 return (0);
 }
