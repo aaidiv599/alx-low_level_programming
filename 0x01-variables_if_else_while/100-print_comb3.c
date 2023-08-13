@@ -22,7 +22,7 @@ while (j <= '9')
 	}
 	else
 	{
-		putchar(' ');
+		putchar(',');
 		putchar(' ');
 	}
 	}
