@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *print _alphabet - print alphabets
- *
- */
-void print_alphabet(void);
+* print _alphabet - print alphabets
+*
+*/
+void print_alphabet(void)
+
 {
 	char al;
 
