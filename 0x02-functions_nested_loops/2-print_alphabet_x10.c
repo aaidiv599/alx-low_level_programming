@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * print_alphabet - print alpabets
- *
- */
+* print_alphabet - print alpabets
+*
+* Description: using _putchar to print
+*
+*/
 void print_alphabet_x10(void)
 {
-	char i = 'a';
-	char j = '0';
-	while ( i <= 'z')
+	char i;
+	int j;
+
+	for (j = 0; j < 10; j++)
 	{
-		while ( j <= '9')
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(j);
-			j++;
+			_putchar(i);
 		}
 		_putchar('\n');
-		i++;
 	}
 }
-
