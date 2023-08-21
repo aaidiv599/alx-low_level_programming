@@ -1,8 +1,8 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * _strlen - this function return the lenght of a string
  *
- * @:s character of the strings
+ * @s: character of the strings
  *
  * Return: (0)
  */
