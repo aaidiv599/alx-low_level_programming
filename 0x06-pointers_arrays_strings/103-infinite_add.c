@@ -26,13 +26,15 @@ char *infinite_add(char *nl, char *n2, char *r, int size_r)
 	r[l] = '\0';
 	for (k = l - 1; k >= 0; k--)
 	{
-		i++;
-		j++;
+		i--;
+		j--;
 		if (i >= 0)
 			f = nl[i] - '0';
 		else
 			f = 0;
 		if (j >= 0)
+			s = n2[j] - '0';
+		else
 			s = 0;
 		r[k] = (f + s + d) % 10 + '0';
 		d = (f + s + d) / 10;
