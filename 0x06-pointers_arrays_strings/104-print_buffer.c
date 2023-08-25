@@ -13,7 +13,7 @@ int isPrintableASCII(int n)
 
 /**
  * printHexes - print hex values for string b in formatted form
- * @b: string to point
+ * @b: string to print
  * @start: starting position
  * @end: ending position
  */
@@ -24,9 +24,9 @@ void printHexes(char *b, int start, int end)
 	while (i < 10)
 	{
 		if (i < end)
-			printf("%02x", *(b + start + I));
+			printf("%02x", *(b + start + i));
 		else
-			print("  ");
+			printf("  ");
 		if (i % 2)
 			printf(" ");
 		i++;
@@ -66,7 +66,7 @@ void print_buffer(char *b, int size)
 	{
 		for (start = 0; start < size; start += 10)
 		{
-			end = (size - start < 10) ? size : 10;
+			end = (size - start < 10) ? size - start : 10;
 			printf("%08x: ", start);
 			printHexes(b, start, end);
 			printASCII(b, start, end);
