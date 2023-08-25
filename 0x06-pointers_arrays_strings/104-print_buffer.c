@@ -5,6 +5,7 @@
  * isPrintableASCII - determines if n is a printable char
  * @n: integer
  * Return: 1 if true, 0 if false
+ *
  */
 int isPrintableASCII(int n)
 {
@@ -38,6 +39,7 @@ void printHexes(char *b, int start, int end)
  * @b: string to print
  * @start: starting position
  * @end: ending position
+ * Return: integer
  */
 int printASCII(char *b, int start, int end)
 {
