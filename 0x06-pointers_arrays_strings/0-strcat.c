@@ -2,10 +2,10 @@
 /**
  * _strncat - function that concatenates two strings
  *
- * @dest: the destination string pointer
- * @src: the source string pointer
+ * @dest: input value
+ * @src: input value
  *
- * Return: destination string
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
