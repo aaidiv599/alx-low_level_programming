@@ -53,6 +53,7 @@ int printASCII(char *b, int start, int end)
 		printf("%c", ch);
 		i++;
 	}
+	return (end);
 }
 
 /**
