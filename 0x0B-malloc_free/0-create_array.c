@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * create_array - function that creates an array of chars,
@@ -17,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	ptr = mollac(sizeof(char) * size);
+	ptr = malloc(sizeof(char) * size);
 	if (ptr == NULL)
 	{
 		return (NULL);
